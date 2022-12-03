@@ -1,4 +1,4 @@
-name: Build B7 Padavan KVR
+name: Build Padavan测试
 
 on:
   workflow_dispatch:
