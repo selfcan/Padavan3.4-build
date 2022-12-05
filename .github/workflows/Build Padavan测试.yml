@@ -6,7 +6,7 @@ on:
       repourl:
         description: 'padavan repo url'
         required: true
-        default: 'https://github.com/Lancet-z/rt-n56u.git'
+        default: 'https://github.com/hy5528/Padavan.git'
         
   #  branches: 
   #    - master
@@ -15,7 +15,7 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-18.04
+    runs-on: ubuntu-20.04
     if: github.event.repository.owner.id == github.event.sender.id
 
     steps:
@@ -50,7 +50,7 @@ jobs:
     - name: Build Firmware
       env:
         #TNAME: XIAOMI
-        TNAME: MSG1500-7615
+        TNAME: BELL-A-040W-Q
       run: |
         cd /opt/rt-n56u/trunk
         if [ ! -f configs/templates/$TNAME.config ] ; then
