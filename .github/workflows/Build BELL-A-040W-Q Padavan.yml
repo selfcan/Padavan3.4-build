@@ -1,4 +1,4 @@
-name: Build BELL-A-040W-Q Padavan测试
+name: Build BELL-A-040W-Q Padavan
 
 on:
   workflow_dispatch:
