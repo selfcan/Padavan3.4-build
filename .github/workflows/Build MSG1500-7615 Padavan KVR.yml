@@ -1,4 +1,4 @@
-name: Build MSG1500-7615 PadavanKVR
+name: Build MSG1500-7615 Padavan KVR
 
 on:
   workflow_dispatch:
