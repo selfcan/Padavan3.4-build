@@ -1,4 +1,4 @@
-name: Build B70 PadavanKVR
+name: Build B70 Padavan KVR
 
 on:
   workflow_dispatch:
