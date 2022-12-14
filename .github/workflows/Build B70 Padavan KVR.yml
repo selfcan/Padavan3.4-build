@@ -1,4 +1,4 @@
-name: Build B70 Padavan KVR
+name: Build B70 PadavanKVR
 
 on:
   workflow_dispatch:
@@ -102,5 +102,5 @@ jobs:
       uses: actions/upload-artifact@master
       if: always()
       with:
-        name: Padavan-packages
+        name: Padavan-B70KVR
         path: /opt/images
