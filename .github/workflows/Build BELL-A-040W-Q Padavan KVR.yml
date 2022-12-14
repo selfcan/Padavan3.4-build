@@ -1,4 +1,4 @@
-name: Build BELL-A-040W-Q Padavan KVR
+name: Build BELL-A-040W-Q PadavanKVR
 
 on:
   workflow_dispatch:
@@ -101,5 +101,5 @@ jobs:
       uses: actions/upload-artifact@master
       if: always()
       with:
-        name: Padavan-BELL-A-040W-Q
+        name: Padavan-BELL-A-040W-QKVR
         path: /opt/images
